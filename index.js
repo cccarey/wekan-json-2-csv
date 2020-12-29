@@ -23,6 +23,7 @@ cards.forEach(card => {
         labels: getLabelNames(card),
         title: card.title,
         members: getMemberNames(card),
+        sort: card.sort,
         archived: card.archived,
         createdAt: card.createdAt,
         lastActivity: card.dateLastActivity,
